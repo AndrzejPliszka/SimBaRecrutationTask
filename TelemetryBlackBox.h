@@ -36,7 +36,7 @@ private:
     std::size_t m_bufferIndex {0};
 
     RocketState m_state {DISARM};
-    bool m_parachute {};
-    bool m_baroError {};
-    std::uint16_t m_altitude {};
+    bool m_parachute {false};
+    bool m_baroError {false};
+    std::uint16_t m_altitude {0};
 };
