@@ -7,5 +7,6 @@ int main() {
     t.onParachuteDeployed();
     t.onBaroReading(false, 1000);
     t.recordCurrentState();
+    t.getLastDataframe();
     return 0;
 }
