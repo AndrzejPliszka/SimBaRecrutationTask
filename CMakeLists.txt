@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 26)
 
 add_executable(SimBaRecrutationTask main.cpp
         TelemetryBlackBox.h
-        TelemetryBlackBox.cpp)
+        TelemetryBlackBox.cpp
+        TelemetryBlackBoxTests.cpp
+        TelemetryBlockBoxTests.h)

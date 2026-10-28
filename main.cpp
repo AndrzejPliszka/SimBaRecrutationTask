@@ -1,12 +1,6 @@
-#include <iostream>
-#include "TelemetryBlackBox.h"
+#include "TelemetryBlockBoxTests.h"
 
 int main() {
-    TelemetryBlackBox t {};
-    t.onRocketStateChange(FLIGHT);
-    t.onParachuteDeployed();
-    t.onBaroReading(false, 1000);
-    t.recordCurrentState();
-    t.getLastDataframe();
+    TelemetryBlackBoxTests::runAllTests();
     return 0;
 }
