@@ -7,6 +7,13 @@
 
 namespace TelemetryBlackBoxTests {
     void testDisarmState();
+    void testLandedState();
+    void testLandedStateReverse();
+    void testeParachuteBit();
+    void testBaroError();
+    void testBaro();
+    void testMultipleBufferSaving();
+    void testBufferOverflow();
     void runAllTests();
 }
 
